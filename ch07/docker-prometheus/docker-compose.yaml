@@ -32,7 +32,7 @@ services:
       - dockermon
 
   cadvisor:
-    image: google/cadvisor:latest
+    image: gcr.io/cadvisor/cadvisor:latest
     container_name: cadvisor
     ports:
       - 9559:8080
